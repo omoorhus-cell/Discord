@@ -1,0 +1,13 @@
+name: DiscordLink
+version: '1.0'
+main: org.tekkabyte.discordLink.DiscordLink
+api-version: '1.21'
+author: TekkaByte
+
+commands:
+  report:
+    description: Report a player to Discord
+    usage: /report <player> <reason...>
+  link:
+    description: Link your Minecraft account to Discord
+    usage: /link

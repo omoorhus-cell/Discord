@@ -1,0 +1,21 @@
+discord:
+  chat-webhook: "WEBHOOK_LINK"
+  reports-webhook: "WEBHOOK_LINK"
+  staff-role-id: "STAFF_ROLE_ID" # role to ping, just the number, no <@& >
+
+reports:
+  create-thread-per-report: true
+  thread-id-override: ""
+  max-per-player: 3
+  window-seconds: 86400
+
+bridge:
+  poll-url: "CLOUDFLARE_POLL_ID"
+  server-id: "ID"
+  secret: "SECRET"
+  poll-interval-ticks: 40
+  allow-discord-commands: false
+
+supabase:
+  url: "SUPA_URL"
+  service-key: "SUPA_KEY"

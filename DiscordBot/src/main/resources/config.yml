@@ -1,0 +1,19 @@
+discord:
+  token: "PUT_TOKEN_HERE"
+  client-id: "PUT_CLIENT_ID_HERE"
+  guild-id: "SERVER_ID_HERE"
+
+  mc-chat-channel-id: "MC_CHAT_ID_HERE"
+  mc-link-channel-id: "LINK_CHANNEL_ID_HERE"
+  mc-admin-channel-id: ""
+
+  allow-discord-commands: false
+  link-one-to-one: true
+  link-role-id: "1417610609561702472"
+
+supabase:
+  url: "SUPA_URLID"
+  service-key: "SUPA_KEY"
+
+bridge:
+  server-id: "ID"
